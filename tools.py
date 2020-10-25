@@ -26,7 +26,7 @@ def extract_from_web(file_name):
     data_txt = open(file_name, "w", encoding="utf-8")
     data_txt.write(all_text.text)
 
-    return "Data extracted !"
+    print("Data extracted !")
 
 
 def clean_data(file_name):
@@ -52,7 +52,7 @@ def clean_data(file_name):
         fl.write(text_cleaned)
         fl.truncate()
 
-    return "Data cleaned !"
+    print("Data cleaned !")
 
 
 def create_json_file(file_name):
@@ -90,4 +90,4 @@ def create_json_file(file_name):
     json_file = open(output_json, "w")
     json.dump(all_data, json_file, indent=4)
 
-    return f"Json file {output_json} created !"
+    print(f"Json file {output_json} created !")

@@ -1,7 +1,7 @@
 # Web Scraping: The earthquakes in Turkey
 
 The script will scrape **Kandilli Rasathanesi**'s site for the purpose of structuring the data into the json files.
-Once the script is executed, you'll get a txt file and a json file created with the data scraped. You can take a look on the folder **examples**.
+Once the script is executed, you'll get a txt file and a json file created with the data scraped. You can take a look at the folder **examples**.
 
 # Requirements
 
